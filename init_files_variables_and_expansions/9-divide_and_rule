@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "scale=2; $PUISSANCE / $DIVIDE" | bc
+echo "$(( PUISSANCE / DIVIDE ))"
